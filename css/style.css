@@ -1,0 +1,514 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    outline: 0;
+    
+    
+}
+
+html{
+    /* A cada 1rem = 10px*/
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Jost', sans-serif;
+}
+
+/* Header Barra de Navegação */
+
+header{
+    width: 100%;
+    background-color: #D4EAF3;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+}
+
+.conteiner{
+    width: 90%;
+    max-width: 980px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+
+}
+
+.conteiner img{
+    width: 90px;
+    height: 100%;
+    padding: 2px 0;
+}
+
+.conteiner nav ul{
+    display: flex;
+}
+
+.conteiner nav ul li{
+    list-style: none;
+}
+
+.conteiner nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+    color: black;
+    text-transform: uppercase;
+    transition: all 150ms linear 0s;
+
+    border-radius: 4px;
+}
+
+.conteiner nav ul li a:hover{
+    background-color: rgb(141, 214, 243);
+}
+
+/* Imagem Inicial */
+
+section.img{
+    width: 100%;
+}
+
+section.img img{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* Sobre */
+
+section.hero {
+    margin-top: -4px;
+    width: 100%;
+}
+
+section.hero .title{
+    background-color: #D4EAF3;
+    text-align: center;
+    margin-top: -6px;
+}
+
+section.hero .title h2{
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    padding: 15px 0; 
+}
+
+
+section.hero .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 7.0rem;
+    margin-bottom: 9.0rem;
+    width: 90%;
+    max-width: 980px;
+}
+
+section.hero .content .text{
+    display: block;
+    margin-left: 40px;
+}
+
+section.hero .content .text p{
+    padding: 15px 0;
+    font-size: 2.5rem;
+}
+
+section.hero .redes{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    margin-top: 2.0rem;
+    margin-bottom: 3.0rem;
+
+}
+
+section.hero .redes ul {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+section.hero .redes ul li{
+    list-style: none;
+
+}
+
+section.hero .redes ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 4.0rem;
+}
+
+
+/* Como Funciona */
+
+
+
+section.comofunciona .title{
+
+    background-color: #D4EAF3;
+    text-align: center;
+}
+
+section.comofunciona .title h2{
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    padding: 15px 0; 
+}
+
+section.comofunciona .description{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+section.comofunciona .content{
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+section.comofunciona .content .etapa1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 10px;
+}
+
+section.comofunciona .content .etapa1 img{
+    padding: 35px;
+}
+
+section.comofunciona .content .etapa1 p{
+    padding: 25px;
+}
+
+
+section.comofunciona .content .etapa2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 10px;
+}
+
+section.comofunciona .content .etapa2 img{
+    padding: 35px;
+}
+
+section.comofunciona .content .etapa2 p{
+    padding: 25px;
+}
+
+
+
+section.comofunciona .content .etapa3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 10px;
+}
+
+section.comofunciona .content .etapa3 img{
+    padding: 35px;
+}
+
+section.comofunciona .content .etapa3 p{
+    padding: 25px;
+}
+
+
+/* equipe */ 
+
+ 
+section.equipe .title{
+    width: 100%;
+    background-color: #D4EAF3;
+    text-align: center;
+}
+
+section.equipe .title h2{
+    text-transform: uppercase;
+    font-size: 2.0rem;
+    padding: 15px 0px;
+}
+
+section.equipe .description{
+    width: 90%;
+    max-width: 980px;
+    text-align: center;
+    margin: auto;
+}
+
+section.equipe .equipe-cards{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 90%;
+    max-width: 980px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 3%;
+}
+
+section.equipe .equipe-cards .integrantes {
+    flex: 1 1 200px;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+    background-color: #d4eaf3;
+}
+
+
+
+section.equipe .equipe-cards .integrantes img{
+
+
+    margin: auto;
+    margin-top: 17px;
+    border-radius: 90px;
+    height: 100px;
+    width: 100px;
+}
+
+section.equipe .equipe-cards .integrantes p{
+    margin: 17px;
+    line-height: 0.1rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+
+section.equipe .equipe-cards .integrantes .integrantes-redes ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.equipe .equipe-cards .integrantes .integrantes-redes ul li {
+    list-style: none;
+}
+
+section.equipe .equipe-cards .integrantes .integrantes-redes ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 3.0rem;
+}
+
+
+/* Contato */
+
+section.contato {
+    width: 100%;
+    background-color: #d4eaf3;
+}
+
+
+section.contato .title{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+section.contato .title h2{
+    text-transform: uppercase;
+}
+
+section.contato .content{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90%;
+    max-width: 980px;
+
+    margin: auto;
+    margin-top: 3%;
+    
+}
+
+section.contato .content .info p{
+    display: block;
+    margin: auto;
+    line-height: 2.6rem;
+}
+
+
+section.contato .redes ul{
+    display: block;
+}
+
+section.contato .redes ul li{
+    list-style: none;
+}
+
+section.contato .redes ul li a{
+    text-decoration: none;
+    font-size: 4.0rem;
+    color: black;
+    height: 100%;
+    margin-top: 2px;
+    padding: 0px 20px;   
+}
+
+/* footer */
+
+
+.footer{
+
+    background-color:#7bb4cc;
+    color: black;
+    width: 100%;
+    height: 80px;    
+    
+}
+
+.footer .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+
+}
+
+.footer .content .copy, .localidade{
+    margin-top: 35px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.footer .content .version{
+    margin-top: 35px;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 740px){
+    section.comofunciona .content .etapa1, .etapa2, .etapa3{
+        flex-direction: column;
+        
+    }
+
+    section.comofunciona .content .seta{
+        display: none;
+    }
+}
+
+@media (max-width: 595px){
+
+    nav{
+        display: none;
+    }    
+    
+    .one, .two , .three{
+        background-color: white;
+        height: 5px;
+        width: 100%;
+        margin: 6px auto;
+
+        transition-duration: 0.3s;
+        
+    }
+    .menu-toggle{
+        width: 40px;
+        height: 30px;
+        margin-right: 25px;
+        margin-top: 10px;
+    }
+
+    /*fullscren */
+    .menu-section.on{
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+        background-color: #d4eaf3;
+
+        z-index: 10;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .menu-section.on nav {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+    .menu-section.on nav ul{
+        display: block;
+        text-align: center;
+        
+    }
+
+    .menu-section.on nav ul a{
+        transition-duration: 0.5s;
+        font-size: 3rem;
+        line-height: 4rem;
+        padding: 35px;
+        display: block;
+        
+    }
+}
+
+@media (max-width: 425px){
+    section.hero .content{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px){
+    section.contato .content{
+        display: block;
+    }
+}
